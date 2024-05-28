@@ -49,19 +49,31 @@ In this project I demonstrate an moisture sensor by using ground resistor. Apply
 * When the moisture and the temperature exceed the setting range, it will activate LED D2(This LED can be the buzzor or something that can announce the signal to the operator)
 
 ## Develop a project in realworld
+
 # build PCB circuit.
+
 **Base on the skematic, i have built the PCB layout for main circuit and the keypad for 4 buttons and 1 switch**
+
 * Skematic of PCB board, it include power circuit and operation circuit.
+  
  ![image](https://github.com/phamhduc/Embedded_Project-Plant-tracking-system/assets/101264143/8000f8ef-80c5-4939-a6b9-6857d212d48a)
 
 * PCB layout, it is included in proteus project file
+  
 ![image](https://github.com/phamhduc/Embedded_Project-Plant-tracking-system/assets/101264143/9cf96d79-5e9a-4b3f-b3f6-4d905e901ea3)
+
 * 3D model of the circuit.
+  
 ![image](https://github.com/phamhduc/Embedded_Project-Plant-tracking-system/assets/101264143/48f676a4-cdfb-4cfd-86e3-82c7e258ff24)
+
 * PCB circuit after processing.
+  
 ![image](https://github.com/phamhduc/Embedded_Project-Plant-tracking-system/assets/101264143/d1d26096-5142-4503-ad86-66b13b4c548d)
+
 ![image](https://github.com/phamhduc/Embedded_Project-Plant-tracking-system/assets/101264143/5787c810-665f-4472-9a39-241d6badcf58)
+
 * Testing the system
+  
 ![image](https://github.com/phamhduc/Embedded_Project-Plant-tracking-system/assets/101264143/50ee02ff-c56e-45cc-b719-2457a4743735)
 
 
