@@ -46,7 +46,7 @@ In this project I demonstrate an moisture sensor by using ground resistor. Apply
 * activate the bump for 1 minute, the activating time can be config.
 **Interupt indication**
 ![image](https://github.com/phamhduc/Embedded_Project-Plant-tracking-system/assets/101264143/1c1a0ab4-fb24-4e6c-9590-aa91301f6d8e)
-* When the moisture and the temperature exceed the setting range, it will activate LED D2(This LED can be the buzzor or something that can announce signal to the operator)
+* When the moisture and the temperature exceed the setting range, it will activate LED D2(This LED can be the buzzor or something that can announce the signal to the operator)
 
 
   
