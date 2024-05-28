@@ -100,10 +100,13 @@ void Lcd_Print_String(char *a)
     for(i=0;a[i]!='\0';i++)
        Lcd_Print_Char(a[i]);  //Split the string using pointers and call the Char function 
 }
-void Print_Num(int n,int j,int i)
+void Print_Num(int n, int j, int i)
 {
-    char strnum[5];//5 digit
-    sprintf(strnum,"%02d",n);
-    Lcd_Set_Cursor((char)j,(char)i);
+    char strnum[3];
+    strnum[0] = '0' + (n / 10);   // Extract tens digit
+    strnum[1] = '0' + (n % 10);   // Extract ones digit
+    strnum[2] = '\0';             // Null terminator
+
+    Lcd_Set_Cursor((char)j, (char)i);
     Lcd_Print_String(strnum);
 }
